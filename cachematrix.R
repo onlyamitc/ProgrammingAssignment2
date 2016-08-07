@@ -1,9 +1,13 @@
-
-
 # makeCacheMatrix: This function creates a special "matrix" object 
 #       that can cache its inverse.
 # It takes matrix as an input (blank matrix is default input for this!)
 
+# The function makeCacheMatrix creates a special matrix, 
+# which is really a list containing a function to
+    # set the value of the matrix
+    # get the value of the matrix
+    # set the inverse of the matrix
+    # get the inverse of the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL                             
